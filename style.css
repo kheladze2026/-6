@@ -1,0 +1,138 @@
+body {
+    font-family: arial, sans-serif;
+    color: #24243a;
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.5), 
+            rgba(0, 0, 0, 0.5)
+        ), 
+        url('სურათები/tiny-people-doctor-with-syringe-doing-anabolic-steroids-injection-athlete-anabolic-steroids-anti-aging-aid-illegal-sport-drugs-concept-pinkish-coral-bluevector-isolated-illustration_335657-1463.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    color: #ff000d;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h2 {
+    color: #ff000d;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+p {
+    color: hsl(42, 100%, 50%);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.site-header {
+    background-color: oklab(48.204% -0.02776 -0.28064);
+    color: #ffffff;
+    padding: 1px 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 20px;
+    font-weight: 700;
+    color: #f7eb05;
+}
+
+.main-nav a {
+    display: inline-block;
+    color: hsl(0, 0%, 0%);
+    background-color: #f3df4c;
+    padding: 8px 14px;
+    margin-left: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.main-nav a:hover {
+    background-color: #ff0000;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+main > section {
+   background-color: rgba(255, 255, 255, 0.3);
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.services-container {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.service-card {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    background-color:rgba(255, 255, 255, 0.3);
+    border: 2px solid #de0a14;
+    padding: 15px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.notice {
+    display: block;
+    font-weight: 700;
+    color: hsl(13, 95%, 44%);
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5%;
+    margin-top: 12px;
+}
+
+.order-btn {
+    background-color: lch(99.43% 1.09 308.97);
+    color: hsl(0, 0%, 0%);
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 14px;
+}
+
+.order-btn:hover {
+    background-color: #f7eb05;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: oklab(48.204% -0.02776 -0.28064);
+    color: #ffffff;
+    font-size: 14px;
+}
